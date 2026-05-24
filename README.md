@@ -1,77 +1,115 @@
-<<<<<<< HEAD
-# Welcome to your Lovable project
+# MEDICO 🏥
 
-## Project info
 
-**URL**: https://lovable.dev/projects/d3358ab0-ec97-4223-a4b0-ca3d444886ec
 
-## How can I edit this code?
+> A modern hospital appointment booking platform designed to streamline healthcare scheduling.
 
-There are several ways of editing your application.
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d3358ab0-ec97-4223-a4b0-ca3d444886ec) and start prompting.
+Live Demo: [https://medico-delta.vercel.app/](https://medico-delta.vercel.app/)
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Overview
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+MEDICO addresses the challenges of traditional appointment scheduling by offering a digital-first, multi-hospital platform. It empowers patients to compare doctor availability across different facilities, book specific time slots, and receive automated updates. By implementing real-time slot locking, MEDICO actively prevents overbooking and reduces administrative burdens for hospital staff.
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ✨ Key Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+* **Multi-Hospital Integration:** Browse and compare availability across various hospitals and clinics in one centralized platform.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+* **Real-Time Slot Management:** View live availability and instantly lock selected time slots to prevent double-booking.
+
+* **Unique Appointment IDs:** Automatically generate secure, unique IDs for every confirmed booking to ensure organized consultations.
+
+* **Smart Notifications:** Automated email and SMS reminders sent 24 hours and 1 hour prior to appointments to drastically reduce patient no-shows.
+
+* **Admin Dashboard:** Dedicated portals for hospital staff to manage doctor schedules, monitor incoming appointments, and oversee daily operations.
+
+
+
+## 🛠️ Tech Stack
+
+This project follows a Model-View-Controller (MVC) architecture to ensure scalability and clean code separation.
+
+
+
+* **Frontend (View):** React.js, HTML, CSS, Tailwind CSS
+
+* **Backend (Controller):** Node.js, JavaScript, TypeScript
+
+* **Database (Model):** MongoDB 
+
+
+
+## 🔄 How It Works
+
+1. **User Authentication:** Patients and hospital administrators create secure accounts and log in.
+
+2. **Search & Filter:** Patients browse listings filtered by specialty, location, and real-time availability.
+
+3. **Instant Booking:** The user selects a time, and the system dynamically locks the slot and generates an Appointment ID.
+
+4. **Confirmation & Alerts:** A confirmation message is displayed, and the backend schedules pre-appointment email/SMS reminders.
+
+
+
+## 👥 Meet the Team
+
+This project was developed by Team 7 at CMR College of Engineering & Technology:
+
+* **B. Sai Naga Sowri** (23H51A05M5)
+
+* **G. Anil** (23H51A05F3)
+
+* **Manish Rathod** (23H51A05G8)
+
+* **Aditya Pathak** (23H51A0566)
+
+* **B. Charan Reddy** (23H51A05V6)
+
+
+
+## 💻 Running the Project Locally
+
+
+
+1. Clone the repository:
+
+   ```bash
+
+   git clone [https://github.com/yourusername/medico.git](https://github.com/yourusername/medico.git)
+
+
+
+2.Navigate to the project directory:
+
+Bash
+
+
+
+cd medico
+
+
+
+3.Install the dependencies:
+
+Bash
+
+npm install
+
+
+
+4.Configure environment variables (e.g., MongoDB URI, API keys for SMS/Email).
+
+
+
+5.Start the development server:
+
+Bash
+
+
+
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d3358ab0-ec97-4223-a4b0-ca3d444886ec) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-=======
-# Medicoo
->>>>>>> 73c16aa8f119804f9d05142cac922b720e0f5ab6
